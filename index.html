@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>crud app</title>
+</head>
+<body>
+    <form id="form">
+        <lable for="type">Expense type</lable>
+        <select id="type">
+            <option value=""></option>
+            <option value="electronics">electronics</option>
+            <option value="food">food</option>
+            <option value="transport">transport</option>
+        </select>
+        <label for="product">Product Name</label>
+        <input type="text" id="product" name="product"></inpput>
+        <label for="price">Price</label>
+        <input type="number" id="price" name="price"></inpput>
+        <button type="submit" id="submit">Add Product</button>
+    </form>
+    <div id="box">
+       <ul id="list">
+          
+       </ul>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
